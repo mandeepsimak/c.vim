@@ -1,67 +1,69 @@
 == Comments.end-of-line-comment == append, nomenu ==
 /* <CURSOR> */
 == Comments.frame == map:cfr, shortcut:f  ==
-/*-----------------------------------------------------------------------------
+/**-------------------------------------------------------------------
  *  <CURSOR>
- *-----------------------------------------------------------------------------*/
+ *------------------------------------------------------------------*/
 == Comments.function == map:cfu, shortcut:f  ==
-/* 
- * ===  FUNCTION  ======================================================================
+/** 
+ * ===  FUNCTION =====================================================
  *         Name:  |?FUNCTION_NAME|
  *  Description:  <CURSOR>
- * =====================================================================================
+ * ===================================================================
  */
 == Comments.method == map:cme, shortcut:m  ==
-/*
- *--------------------------------------------------------------------------------------
+/**
+ *--------------------------------------------------------------------
  *       Class:  |?CLASSNAME|
  *      Method:  |?CLASSNAME| :: |?METHODNAME|
  * Description:  <CURSOR>
- *--------------------------------------------------------------------------------------
+ *--------------------------------------------------------------------
  */
 == Comments.class == map:ccl, shortcut:c  ==
-/*
- * =====================================================================================
+/**
+ * ===================================================================
  *        Class:  |?CLASSNAME|
  *  Description:  <CURSOR>
- * =====================================================================================
+ * ===================================================================
  */
 == Comments.file description impl == map:cfdi, shortcut:c, start, noindent ==
 /*
- * =====================================================================================
+ * ===================================================================
  *
  *       Filename:  |FILENAME|
  *
  *    Description:  <CURSOR>
  *
- *        Version:  1.0
+ *        Version:  |VERSION|
  *        Created:  |DATE| |TIME|
- *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  |AUTHOR| (|AUTHORREF|), |EMAIL|
- *   Organization:  |ORGANIZATION|
+ *         Author:  |AUTHOR|, |EMAIL|
+ *        License:  |LICENSE|
+ *      Copyright:  |COPYRIGHT|
+ *                  |ORGEMAIL|
  *
- * =====================================================================================
+ * ===================================================================
  */
 
 == Comments.file description header == map:cfdh, shortcut:h, start, noindent ==
 /*
- * =====================================================================================
+ * ===================================================================
  *
  *       Filename:  |FILENAME|
  *
  *    Description:  <CURSOR>
  *
- *        Version:  1.0
+ *        Version:  |VERSION|
  *        Created:  |DATE| |TIME|
- *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  |AUTHOR| (|AUTHORREF|), |EMAIL|
- *   Organization:  |ORGANIZATION|
+ *         Author:  |AUTHOR|, |EMAIL|
+ *        License:  |LICENSE|                                         
+ *      Copyright:  |COPYRIGHT| 
+ *                  |ORGEMAIL|
  *
- * =====================================================================================
+ * ===================================================================
  */
 == ENDTEMPLATE ==
 
@@ -114,16 +116,16 @@
 
 == Comments.C file sections  == expandmenu, append, map:ccs, shortcut:s ==
 |PickList( 'C file sections', 'comments_c_sections' )|
-/* #####   |PICK|#################### */<CURSOR>
+/** #####   |PICK|#################### */<CURSOR>
 == Comments.H file sections  == expandmenu, append, map:chs, shortcut:s ==
 |PickList( 'H file sections', 'comments_h_sections' )|
-/* #####   |PICK|######################################## */<CURSOR>
+/** #####   |PICK|######################################## */<CURSOR>
 == Comments.keyword comments == expandmenu, append, map:ckc, shortcut:k ==
 |PickList( 'keyword comments', 'comments_keywords' )|
- /* |PICK| <CURSOR> */
+ /** |PICK| <CURSOR> */
 == Comments.special comments == expandmenu, append, map:csc, shortcut:s ==
 |PickList( 'special comments', 'comments_special' )|
- /* |PICK| */<CURSOR>
+ /** |PICK| */<CURSOR>
 == Comments.macros == expandmenu, insert, map:cma, shortcut:m ==
 |PickList( 'macro', 'comments_macros' )|
 ||PICK||<CURSOR>

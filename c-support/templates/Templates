@@ -2,13 +2,15 @@
 §  User Macros
 § ==========================================================
 
-SetMacro( 'AUTHOR',      'YOUR NAME' )
+SetMacro( 'AUTHOR',      'Mandeep Kaur' )
 SetMacro( 'AUTHORREF',   '' )
+SetMacro( 'VERSION',     '0.6' )
 SetMacro( 'COMPANY',     '' )
-SetMacro( 'COPYRIGHT',   'Copyright (c) |YEAR|, |AUTHOR|' )
-SetMacro( 'EMAIL',       '' )
+SetMacro( 'COPYRIGHT',   'Copyright (c) |YEAR|, GreatDevelopers')
+SetMacro( 'ORGEMAIL',    'https://github.com/GreatDevelopers')
+SetMacro( 'EMAIL',       'meghasimak@gmail.com' )
 SetMacro( 'LICENSE',     'GNU General Public License' )
-SetMacro( 'ORGANIZATION','' )
+SetMacro( 'ORGANIZATION','Great Developers' )
 
 SetStyle( 'C' )
 
