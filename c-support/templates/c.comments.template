@@ -1,5 +1,5 @@
 == Comments.end-of-line-comment == append, nomenu ==
-/* <CURSOR> */
+/**< <CURSOR> */
 == Comments.frame == map:cfr, shortcut:f  ==
 /**-------------------------------------------------------------------\n
  *  <CURSOR> \n
