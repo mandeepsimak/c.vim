@@ -6,64 +6,52 @@
  *------------------------------------------------------------------*/
 == Comments.function == map:cfu, shortcut:f  ==
 /** 
- * ===  FUNCTION =====================================================
- *         Name:  |?FUNCTION_NAME|
- *  Description:  <CURSOR>
- * ===================================================================
+ *      \fn     |?FUNCTION_NAME|
+ *      \brief  <CURSOR>
+ *      \param
  */
 == Comments.method == map:cme, shortcut:m  ==
 /**
- *--------------------------------------------------------------------\n
- *       Class:  |?CLASSNAME| \n
- *      Method:  |?CLASSNAME| :: |?METHODNAME| \n
- * Description:  <CURSOR> \n
- *--------------------------------------------------------------------
+ *      \class  |?CLASSNAME|
+ *      \fn     |?CLASSNAME| :: |?METHODNAME|
+ *      \brief  <CURSOR>
  */
 == Comments.class == map:ccl, shortcut:c  ==
 /**
- * ===================================================================\n
- *        Class:  |?CLASSNAME| \n
- *  Description:  <CURSOR> \n
- * ===================================================================\n
+ *        \class  |?CLASSNAME|
+ *        \brief  <CURSOR>
  */
 == Comments.file description impl == map:cfdi, shortcut:c, start, noindent ==
-/*
- * ===================================================================
+/**
+ *       \file      |FILENAME|
  *
- *       Filename:  |FILENAME|
+ *       \brief      <CURSOR>
  *
- *    Description:  <CURSOR>
+ *       \version   |VERSION|
+ *       \date      |DATE| |TIME|
+ *       Compiler  gcc
  *
- *        Version:  |VERSION|
- *        Created:  |DATE| |TIME|
- *       Compiler:  gcc
- *
- *         Author:  |AUTHOR|, |EMAIL|
- *        License:  |LICENSE|
- *      Copyright:  |COPYRIGHT|
+ *       \author    |AUTHOR|, |EMAIL|
+ *        License  |LICENSE|
+ *      \copyright  |COPYRIGHT|
  *                  |ORGEMAIL|
- *
- * ===================================================================
  */
 
 == Comments.file description header == map:cfdh, shortcut:h, start, noindent ==
-/*
- * ===================================================================
+/**
  *
- *       Filename:  |FILENAME|
+ *       \file      |FILENAME|
  *
- *    Description:  <CURSOR>
+ *       \details    <CURSOR>
  *
- *        Version:  |VERSION|
- *        Created:  |DATE| |TIME|
+ *       \version   |VERSION|
+ *       \date      |DATE| |TIME|
  *       Compiler:  gcc
  *
- *         Author:  |AUTHOR|, |EMAIL|
- *        License:  |LICENSE|                                         
- *      Copyright:  |COPYRIGHT| 
+ *       \author    |AUTHOR|, |EMAIL|
+ *        License:  |LICENSE|
+ *      \copyright  |COPYRIGHT|
  *                  |ORGEMAIL|
- *
- * ===================================================================
  */
 == ENDTEMPLATE ==
 
@@ -130,4 +118,3 @@
 |PickList( 'macro', 'comments_macros' )|
 ||PICK||<CURSOR>
 == ENDTEMPLATE ==
-
