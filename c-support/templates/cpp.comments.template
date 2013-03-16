@@ -5,52 +5,51 @@
 ///  <CURSOR> \n
 ///-------------------------------------------------------------------
 == Comments.function == map:cfu, shortcut:f  ==
-/// ===  FUNCTION ====================================================\n
-///         Name:  |?FUNCTION_NAME| \n
-///  Description:  <CURSOR> \n
-/// ==================================================================\n
+///
+///         \fn   |?FUNCTION_NAME| \n
+///     \details  <CURSOR> \n
+///
 == Comments.method == map:cme, shortcut:m  ==
-///-------------------------------------------------------------------
-///       Class:  |?CLASSNAME|
-///      Method:  |?CLASSNAME| :: |?METHODNAME|
-/// Description:  <CURSOR>
-///-------------------------------------------------------------------
+///
+///     \class    |?CLASSNAME|
+///     \fn       |?CLASSNAME| :: |?METHODNAME|
+///     \details  <CURSOR>
 == Comments.class == map:ccl, shortcut:c  ==
 /// ==================================================================\n
-///        Class:  |?CLASSNAME| \n
-///  Description:  <CURSOR> \n
+///     \class    |?CLASSNAME| \n
+///     \details  <CURSOR> \n
 /// ==================================================================\n
 == Comments.file description impl == map:cfdi, shortcut:c, start, noindent ==
 // ===================================================================
 //
-//       Filename:  |FILENAME|
+//      \file      |FILENAME|
 //
-//    Description:  <CURSOR>
+//      \details   <CURSOR>
 //
-//        Version:  |VERSION|
-//        Created:  |DATE| |TIME|
-//       Compiler:  gcc
+//      \version   |VERSION|
+//      \date      |DATE| |TIME|
+//      Compiler   gcc
 //
-//         Author:  |AUTHOR|, |EMAIL|
-//        License:  |LICENSE|                                         
-//      Copyright:  |COPYRIGHT|
-//                  |ORGEMAIL|
+//      \author    |AUTHOR|, |EMAIL|
+//       License   |LICENSE|                                         
+//      \copyright |COPYRIGHT|
+//                 |ORGEMAIL|
 //
 // ===================================================================
 == Comments.file description header == map:cfdh, shortcut:h, start, noindent ==
 // ===================================================================
 //
-//       Filename:  |FILENAME|
+//      \file       |FILENAME|
 //
-//    Description:  <CURSOR>
+//      \details    <CURSOR>
 //
-//        Version:  |VERSION|
-//        Created:  |DATE| |TIME|
-//       Compiler:  gcc
+//      \version    |VERSION|
+//      \date       |DATE| |TIME|
+//      Compiler    gcc
 //
-//         Author:  |AUTHOR|, |EMAIL|
-//        License:  |LICENSE|                                        
-//      Copyright:  |COPYRIGHT|   
+//      \author     |AUTHOR|, |EMAIL|
+//      License    |LICENSE|                                        
+//      \copyright  |COPYRIGHT|   
 //                  |ORGEMAIL|
 //
 // ===================================================================
