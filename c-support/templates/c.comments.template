@@ -46,10 +46,10 @@
  *
  *       \version   |VERSION|
  *       \date      |DATE| |TIME|
- *       Compiler:  gcc
+ *       Compiler   gcc
  *
  *       \author    |AUTHOR|, |EMAIL|
- *        License:  |LICENSE|
+ *        License   |LICENSE|
  *      \copyright  |COPYRIGHT|
  *                  |ORGEMAIL|
  */
