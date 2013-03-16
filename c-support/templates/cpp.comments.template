@@ -32,8 +32,8 @@
 //
 //      \author    |AUTHOR|, |EMAIL|
 //       License   |LICENSE|                                         
-//      \copyright:|COPYRIGHT|
-//                  |ORGEMAIL|
+//      \copyright |COPYRIGHT|
+//                 |ORGEMAIL|
 //
 // ===================================================================
 == Comments.file description header == map:cfdh, shortcut:h, start, noindent ==
@@ -47,9 +47,9 @@
 //      \date       |DATE| |TIME|
 //      Compiler    gcc
 //
-//      \author:    |AUTHOR|, |EMAIL|
-//      License:    |LICENSE|                                        
-//      \copyright: |COPYRIGHT|   
+//      \author     |AUTHOR|, |EMAIL|
+//      License    |LICENSE|                                        
+//      \copyright  |COPYRIGHT|   
 //                  |ORGEMAIL|
 //
 // ===================================================================
