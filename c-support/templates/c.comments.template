@@ -1,9 +1,9 @@
 == Comments.end-of-line-comment == append, nomenu ==
 /**< <CURSOR> */
 == Comments.frame == map:cfr, shortcut:f  ==
-/**-------------------------------------------------------------------\n
- *  <CURSOR> \n
- *------------------------------------------------------------------*/
+/**
+ *  <CURSOR> 
+ */
 == Comments.function == map:cfu, shortcut:f  ==
 /** 
  *      \fn     |?FUNCTION_NAME|
@@ -15,43 +15,44 @@
  *      \class  |?CLASSNAME|
  *      \fn     |?CLASSNAME| :: |?METHODNAME|
  *      \brief  <CURSOR>
+ *      \param
  */
 == Comments.class == map:ccl, shortcut:c  ==
 /**
- *        \class  |?CLASSNAME|
- *        \brief  <CURSOR>
+ *      \class  |?CLASSNAME|
+ *      \brief  <CURSOR>
  */
 == Comments.file description impl == map:cfdi, shortcut:c, start, noindent ==
 /**
- *       \file      |FILENAME|
+ *       \file       |FILENAME|
  *
  *       \brief      <CURSOR>
  *
- *       \version   |VERSION|
- *       \date      |DATE| |TIME|
- *       Compiler  gcc
+ *       \version    |?VERSION|
+ *       \date       |DATE| |TIME|\n
+ *       Compiler    g++
  *
- *       \author    |AUTHOR|, |EMAIL|
- *        License  |LICENSE|
- *      \copyright  |COPYRIGHT|
- *                  |ORGEMAIL|
+ *       \author     |AUTHOR|, |EMAIL|
+ *       License     |LICENSE|
+ *       \copyright  |COPYRIGHT|
+ *                   |ORGEMAIL|
  */
 
 == Comments.file description header == map:cfdh, shortcut:h, start, noindent ==
 /**
  *
- *       \file      |FILENAME|
+ *       \file       |FILENAME|
  *
  *       \details    <CURSOR>
  *
- *       \version   |VERSION|
- *       \date      |DATE| |TIME|
- *       Compiler   gcc
+ *       \version    |?VERSION|
+ *       \date       |DATE| |TIME|\n
+ *       Compiler    g++
  *
- *       \author    |AUTHOR|, |EMAIL|
- *        License   |LICENSE|
- *      \copyright  |COPYRIGHT|
- *                  |ORGEMAIL|
+ *       \author     |AUTHOR|, |EMAIL|
+ *       License     |LICENSE|
+ *       \copyright  |COPYRIGHT|
+ *                   |ORGEMAIL|
  */
 == ENDTEMPLATE ==
 

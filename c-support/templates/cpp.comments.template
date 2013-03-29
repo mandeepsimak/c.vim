@@ -1,13 +1,13 @@
 == Comments.end-of-line-comment == append, nomenu ==
 // <CURSOR>
 == Comments.frame == map:cfr, shortcut:f  ==
-///-------------------------------------------------------------------\n
-///  <CURSOR> \n
-///-------------------------------------------------------------------
+///
+///  <CURSOR>
+///
 == Comments.function == map:cfu, shortcut:f  ==
 ///
-///         \fn   |?FUNCTION_NAME| \n
-///     \details  <CURSOR> \n
+///     \fn       |?FUNCTION_NAME| 
+///     \details  <CURSOR> 
 ///
 == Comments.method == map:cme, shortcut:m  ==
 ///
@@ -26,12 +26,12 @@
 //
 //      \details   <CURSOR>
 //
-//      \version   |VERSION|
+//      \version   |?VERSION|
 //      \date      |DATE| |TIME|
-//      Compiler   gcc
+//      Compiler   g++
 //
 //      \author    |AUTHOR|, |EMAIL|
-//       License   |LICENSE|                                         
+//      License    |LICENSE|                                         
 //      \copyright |COPYRIGHT|
 //                 |ORGEMAIL|
 //
@@ -43,12 +43,12 @@
 //
 //      \details    <CURSOR>
 //
-//      \version    |VERSION|
+//      \version    |?VERSION|
 //      \date       |DATE| |TIME|
-//      Compiler    gcc
+//      Compiler    g++
 //
 //      \author     |AUTHOR|, |EMAIL|
-//      License    |LICENSE|                                        
+//      License     |LICENSE|                                        
 //      \copyright  |COPYRIGHT|   
 //                  |ORGEMAIL|
 //
