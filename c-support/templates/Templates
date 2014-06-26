@@ -8,7 +8,7 @@ SetMacro( 'VERSION',     '0.6' )
 SetMacro( 'COMPANY',     '' )
 SetMacro( 'COPYRIGHT',   'Copyright (c) |YEAR|, GreatDevelopers')
 SetMacro( 'ORGEMAIL',    'https://github.com/GreatDevelopers')
-SetMacro( 'EMAIL',       'meghasimak@gmail.com' )
+SetMacro( 'EMAIL',       'simakmandeep@gmail.com' )
 SetMacro( 'LICENSE',     'GNU General Public License' )
 SetMacro( 'ORGANIZATION','Great Developers' )
 
