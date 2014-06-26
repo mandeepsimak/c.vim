@@ -28,32 +28,36 @@
  *
  *       \brief      <CURSOR>
  *
- *       \version    |?VERSION|
- *       \date       |DATE| |TIME|\n
- *       Compiler    g++
+ *       \compiler   g++\n
  *
  *       \author     |AUTHOR|, |EMAIL|
- *       License     |LICENSE|
- *       \copyright  |COPYRIGHT|
+ *       \license    |LICENSE|\n
+ *       \copyright  |COPYRIGHT|\n
  *                   |ORGEMAIL|
  */
 
 == Comments.file description header == map:cfdh, shortcut:h, start, noindent ==
 /**
- *
  *       \file       |FILENAME|
  *
- *       \details    <CURSOR>
+ *       \brief      <CURSOR>
  *
- *       \version    |?VERSION|
- *       \date       |DATE| |TIME|\n
- *       Compiler    g++
+ *       \compiler   g++\n
  *
  *       \author     |AUTHOR|, |EMAIL|
- *       License     |LICENSE|
- *       \copyright  |COPYRIGHT|
+ *       \license    |LICENSE|\n
+ *       \copyright  |COPYRIGHT|\n
  *                   |ORGEMAIL|
  */
+
+== Comments.file description footer == map:cfe, shortcut:h, noindent ==
+/*
+ * Local Variables:
+ * tab-width: 4
+ * expandtab
+ * ex: shiftwidth=4 tabstop=4
+ */ 
+
 == ENDTEMPLATE ==
 
 == LIST: comments_c_sections == hash ==
