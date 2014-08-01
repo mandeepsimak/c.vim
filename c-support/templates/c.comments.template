@@ -22,7 +22,17 @@
  *      \class  |?CLASSNAME|
  *      \brief  <CURSOR>
  */
-== Comments.file description impl == map:cfdi, shortcut:c, start, noindent ==
+== Comments.file description == map:cfdi, shortcut:c, start, noindent ==
+/**
+ *       \file       |FILENAME|
+ *
+ *       \brief      <CURSOR>
+ *
+ *       \author     |AUTHOR|, |EMAIL|
+ *       \copyright  |LICENSE|
+ */
+
+== Comments.file description impl == map:cfbp, shortcut:c, start, noindent ==
 /**
  *       \file       |FILENAME|
  *
@@ -42,12 +52,8 @@
  *
  *       \brief      <CURSOR>
  *
- *       \compiler   g++\n
- *
  *       \author     |AUTHOR|, |EMAIL|
- *       \license    |LICENSE|\n
- *       \copyright  |COPYRIGHT|\n
- *                   |ORGEMAIL|
+ *       \copyright  |LICENSE|
  */
 
 == Comments.file description footer == map:cfe, shortcut:h, noindent ==
